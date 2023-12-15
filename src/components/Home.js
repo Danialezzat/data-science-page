@@ -3,6 +3,7 @@ import './HomeStyles.css';
 import Navbar from './Navbar';
 import Hero from './Hero';
 import Pricing from './Pricing';
+import Testimonials from './Testimonials';
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
         <Navbar />
         <Hero />
         <Pricing />
+        <Testimonials />
     </div>
   )
 }
